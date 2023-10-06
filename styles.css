@@ -1,0 +1,52 @@
+/* Колір фона */
+body {
+  background-color: #ECECEC;
+}
+
+/* Колір фона */
+body {
+  background-color: #ECECEC;
+}
+
+/* Фоновий малюнок */
+header {
+  background-image: url("f.jpg");
+  background-size: cover;
+}
+
+/* Стилізація гіперпосилань */
+a {
+  color: #0077EE;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* Стилізація списків і форм */
+ul {
+  list-style-type: square;
+}
+
+input[type="text"], button {
+  background-color: #F2F2F2;
+  border: 1px solid #CCCCCC;
+  padding: 5px;
+}
+
+/* Стилізація табличних даних */
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+  th, td {
+    border: 1px solid #DDDDDD;
+    padding: 8px;
+    text-align: left;
+  }
+
+  td {
+    background-color: linear-gradient(to right, #00ff00, #0000ff, #ff00ff);
+  }
+}
